@@ -1,3 +1,8 @@
+//Stack
+//Author: Ahmed Jabeldo
+//Date: 11/29/23
+//Collaborators:
+
 public class Node<T> {
     private T data;
     private Node<T> parent;
