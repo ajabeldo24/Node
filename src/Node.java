@@ -16,4 +16,32 @@ public class Node<T> {
         this.child = child;
         this.data = data;
     }
+
+    //Accessors and Mutators
+    public T getData () {
+        return data;
     }
+
+    public void setData (T data) {
+        this.data = data;
+    }
+
+    public Node<T> getParent () {
+        return parent;
+    }
+
+    public void setParent (Node<T> parent) {
+        this.parent = parent;
+    }
+
+    public Node<T> getChild () {
+        return child;
+    }
+
+    public void setChild (Node<T> child) {
+        this.child = child;
+    }
+
+    //Other Methods
+
+}
