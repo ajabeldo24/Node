@@ -43,5 +43,16 @@ public class Node<T> {
     }
 
     //Other Methods
+    public String toString () {
+        String toString = "" + data; //making the toString String just the data
+        return "Node Data: " + toString; //returns the node data in string form;
+    }
 
-}
+    public boolean equals (Node firstNode, Node secondNode) {
+        if (firstNode.getData() == secondNode.getData()) {
+            return true;
+        } else {
+            return false;
+            }
+        }
+    }
